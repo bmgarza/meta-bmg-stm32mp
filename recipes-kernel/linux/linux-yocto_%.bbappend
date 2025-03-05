@@ -1,1 +1,1 @@
-COMPATIBLE_MACHINE:stm32mp-qemuarm64 = "(stm32mp-qemuarm64)"
+COMPATIBLE_MACHINE:stm32mp-qemuarm = "(${MACHINE})"

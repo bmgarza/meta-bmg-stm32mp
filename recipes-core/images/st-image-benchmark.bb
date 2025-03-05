@@ -19,4 +19,6 @@ IMAGE_INSTALL += " packagegroup-self-hosted "
 #
 CORE_IMAGE_EXTRA_INSTALL += " \
     phoronix-test-suite \
+    tmux \
+    htop \
     "

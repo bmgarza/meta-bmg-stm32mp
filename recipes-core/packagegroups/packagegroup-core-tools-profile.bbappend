@@ -1,1 +1,1 @@
-LTTNGTOOLS:stm32mp-qemuarm64 = ""
+LTTNGTOOLS:stm32mp-qemuarm = ""
