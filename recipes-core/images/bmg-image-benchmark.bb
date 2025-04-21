@@ -13,6 +13,7 @@ IMAGE_FEATURES += "\
     "
 
 IMAGE_INSTALL += " packagegroup-self-hosted "
+IMAGE_INSTALL += " systemd-analyze "
 
 # pts/sqlite
 # pts/ramspeed
