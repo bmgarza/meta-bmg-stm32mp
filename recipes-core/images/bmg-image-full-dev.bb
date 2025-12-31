@@ -20,14 +20,17 @@ IMAGE_FEATURES += "\
     ssh-server-dropbear \
     "
 
-IMAGE_INSTALL += " packagegroup-self-hosted "
-IMAGE_INSTALL += " systemd-analyze "
-
 #
 # INSTALL addons
 #
-CORE_IMAGE_EXTRA_INSTALL += " \
+IMAGE_INSTALL += " \
+    packagegroup-self-hosted \
+    \
+    systemd-analyze \
+    vim \
     tmux \
+    dtc \
+    \
     python3 \
     python3-datetime \
     python3-dateutil \
@@ -48,4 +51,6 @@ CORE_IMAGE_EXTRA_INSTALL += " \
     python3-pyyaml \
     python3-pexpect \
     python3-evdev \
+    \
+    networkmanager \
     "

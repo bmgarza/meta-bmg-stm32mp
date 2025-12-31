@@ -1,0 +1,10 @@
+/dts-v1/;
+/plugin/;
+
+&usart3 {
+	pinctrl-names = "default", "sleep", "idle";	/* pin configurations definition */
+	pinctrl-0 = <&usart3_pins_a>;			/* default pin configuration selection */
+	pinctrl-1 = <&usart3_sleep_pins_a>;		/* sleep pin configuration selection */
+	pinctrl-2 = <&usart3_idle_pins_a>;		/* idle pin configuration selection */
+	status = "okay";				/* device activation */
+};
