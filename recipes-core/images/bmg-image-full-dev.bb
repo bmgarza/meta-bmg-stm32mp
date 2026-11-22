@@ -34,7 +34,7 @@ IMAGE_INSTALL += " \
     python3 \
     python3-datetime \
     python3-dateutil \
-    python3-distutils \
+    python3-distutils-extra \
     python3-email \
     python3-fcntl \
     python3-io \
